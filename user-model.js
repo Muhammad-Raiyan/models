@@ -30,7 +30,7 @@ const userSchema = new Schema({
 });
 
 userSchema.plugin(timestamps);
-const User = mongoose.model('user', userSchema);
+const User = mongoose.model('users', userSchema);
 module.exports = User;
 
 module.exports.hashPassword = async (password) => {
