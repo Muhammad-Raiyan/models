@@ -13,4 +13,4 @@ const followingSchema = mongoose.Schema({
 });
 
 followingSchema.plugin(timestamps);
-module.exports = mongoose.model('followings', followingSchema);
+module.exports = mongoose.model('following', followingSchema);
